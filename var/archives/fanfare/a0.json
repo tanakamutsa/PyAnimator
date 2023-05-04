@@ -1,0 +1,22 @@
+{
+    "metadata" : {
+        "name" : "Initializer",
+        "scene" : "1",
+        "next" : "a1",
+        "chapter_duration_ms" : 1000,
+        "standards" : {
+
+        },
+        "objects" : {
+
+        },
+        "methods" : {
+
+        }
+    },
+    "payload" : [
+        "!START;",
+        "@[1]#New(‘sprite’, ‘human’, ‘(0,0)’).Animate(‘walking’, 20, from=‘(0,3)’, to=‘(2,4)’);",
+        "!END;"
+    ]
+}
